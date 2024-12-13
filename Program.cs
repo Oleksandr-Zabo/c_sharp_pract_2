@@ -1,5 +1,5 @@
 ﻿namespace c_sharp_pract_2
-{//lab ex- 5
+{//lab ex- 1
     using c_sharp_pract_2.Entity;
     internal class Program
     {
@@ -24,6 +24,7 @@
             Console.WriteLine(employee2);
 
             Console.WriteLine($"Is salary eguals: {employee1 == employee2}");
+            Console.WriteLine($"Is salary 1 > 2: {employee1 > employee2}");
 
 
         }
